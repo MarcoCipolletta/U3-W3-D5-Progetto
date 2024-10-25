@@ -1,1 +1,34 @@
-<p>favourites works!</p>
+<div class="container my-3 text-white">
+  <p>Ecco i film che ti piacciono!</p>
+
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
+    <div class="col" *ngFor="let favMovie of favMovies">
+      <div class="card h-100">
+        <img
+          [src]="favMovie.movie.imgUrl"
+          class="card-img-top poster"
+          alt="Poster film"
+        />
+        <div class="card-body">
+          <h6 class="card-title fw-bolder">{{ favMovie.movie.name }}</h6>
+          <p class="card-text">Anno: {{ favMovie.movie.year }}</p>
+          <small>{{ favMovie.movie.genere }}</small>
+        </div>
+        <div
+          class="card-footer d-flex justify-content-between bg-transparent border-0"
+        >
+          <a href="#" class="btn btn-primary">Più info</a>
+          <button class="btn btn-primary" (click)="addFav(favMovie.movie)">
+            <i
+              [ngClass]="{
+                'fa-regular': !isFavourite(favMovie.movie),
+                'fa-solid': isFavourite(favMovie.movie)
+              }"
+              class="fa-heart"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

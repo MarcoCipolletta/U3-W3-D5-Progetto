@@ -1,1 +1,35 @@
-<p>home works!</p>
+<div class="container my-3 text-white">
+  <h1>Benvenuto {{ name }}!</h1>
+  <p>Ecco alcuni film che potrebbero piacerti!</p>
+
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
+    <div class="col" *ngFor="let movie of movies">
+      <div class="card h-100">
+        <img
+          [src]="movie.imgUrl"
+          class="card-img-top poster"
+          alt="Poster film"
+        />
+        <div class="card-body">
+          <h6 class="card-title fw-bolder">{{ movie.name }}</h6>
+          <p class="card-text">Anno: {{ movie.year }}</p>
+          <small>{{ movie.genere }}</small>
+        </div>
+        <div
+          class="card-footer d-flex justify-content-between bg-transparent border-0"
+        >
+          <a href="#" class="btn btn-primary">Più info</a>
+          <button class="btn btn-primary" (click)="addFav(movie)">
+            <i
+              [ngClass]="{
+                'fa-regular': !isFavourite(movie),
+                'fa-solid': isFavourite(movie)
+              }"
+              class="fa-heart"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

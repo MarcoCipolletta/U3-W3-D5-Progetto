@@ -15,9 +15,62 @@
       "lastName": "luis",
       "age": "",
       "id": 2
+    },
+    {
+      "email": "ma@ci.it",
+      "password": "$2a$10$q6LvdOOSnBkBR3ij2r2BGe94eGprP.yWnnDVBtvuvXdS/MoH6lLBO",
+      "name": "ma",
+      "lastName": "mo",
+      "age": 555,
+      "id": 3
+    },
+    {
+      "email": "ma@mi.it",
+      "password": "$2a$10$kwuI0Ukiv0vrvYHWvQlYt.DRqDdRLPLNCL7VjEn/SKhEBYNULYjyG",
+      "name": "qwe",
+      "lastName": "qwe",
+      "age": 66,
+      "id": 4
     }
   ],
-  "favourites": [],
+  "favourites": [
+    {
+      "movie": {
+        "id": 2,
+        "name": "The Dark Knight",
+        "year": 2008,
+        "trama": "Batman faces the Joker, a criminal mastermind who brings chaos to Gotham City.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+        "genere": "Action"
+      },
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "movie": {
+        "id": 2,
+        "name": "The Dark Knight",
+        "year": 2008,
+        "trama": "Batman faces the Joker, a criminal mastermind who brings chaos to Gotham City.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+        "genere": "Action"
+      },
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "movie": {
+        "id": 1,
+        "name": "Inception",
+        "year": 2010,
+        "trama": "A thief who enters the dreams of others to steal secrets is given a chance to erase his criminal record by planting an idea into someone's mind.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+        "genere": "Sci-Fi"
+      },
+      "userId": 3,
+      "id": 5
+    }
+  ],
   "movies": [
     {
       "id": 1,

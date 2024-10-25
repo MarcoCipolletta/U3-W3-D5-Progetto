@@ -5,5 +5,4 @@ export interface iMovie {
   trama: string;
   imgUrl: string;
   genere: string;
-  userId?: number;
 }

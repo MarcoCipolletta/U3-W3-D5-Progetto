@@ -3,5 +3,5 @@ export const environment = {
   loginUrl: 'http://localhost:3000/login',
   usersUrl: 'http://localhost:3000/users',
   moviesUrl: 'http://localhost:3000/movies',
-  favourites: 'http://localhost:3000/favourites',
+  favouritesUrl: 'http://localhost:3000/favourites',
 };

@@ -1,1 +1,19 @@
-<p>users works!</p>
+<div class="container my-3 text-white">
+  <p>Ecco la lista di utenti</p>
+
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
+    <div class="col" *ngFor="let user of users">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{ user.name + " " + user.lastName }}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            {{ user.email }}
+          </h6>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <p class="card-text">Età: {{ user.age || "Non registrata" }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
