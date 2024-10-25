@@ -1,0 +1,398 @@
+{
+  "users": [],
+  "favourites": [],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Inception",
+      "year": 2010,
+      "trama": "A thief who enters the dreams of others to steal secrets is given a chance to erase his criminal record by planting an idea into someone's mind.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 2,
+      "name": "The Dark Knight",
+      "year": 2008,
+      "trama": "Batman faces the Joker, a criminal mastermind who brings chaos to Gotham City.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "genere": "Action"
+    },
+    {
+      "id": 3,
+      "name": "Interstellar",
+      "year": 2014,
+      "trama": "A team of astronauts travel through a wormhole in search of a new home for humanity.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Adventure"
+    },
+    {
+      "id": 4,
+      "name": "The Matrix",
+      "year": 1999,
+      "trama": "A hacker discovers the true nature of his reality and his role in the war against its controllers.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 5,
+      "name": "Gladiator",
+      "year": 2000,
+      "trama": "A former Roman general seeks revenge for the murder of his family and betrayal by the emperor's son.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Historical"
+    },
+    {
+      "id": 6,
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "trama": "A young hobbit and his companions set out to destroy a powerful ring before it falls into the wrong hands.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Fantasy"
+    },
+    {
+      "id": 7,
+      "name": "Pulp Fiction",
+      "year": 1994,
+      "trama": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in a series of violent and bizarre events.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Crime"
+    },
+    {
+      "id": 8,
+      "name": "The Godfather",
+      "year": 1972,
+      "trama": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Crime"
+    },
+    {
+      "id": 9,
+      "name": "Forrest Gump",
+      "year": 1994,
+      "trama": "The story of Forrest Gump, a man with a low IQ, who unwittingly influences several historical events.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 10,
+      "name": "Fight Club",
+      "year": 1999,
+      "trama": "An insomniac office worker forms an underground fight club as a form of male bonding.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 11,
+      "name": "The Shawshank Redemption",
+      "year": 1994,
+      "trama": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 12,
+      "name": "The Avengers",
+      "year": 2012,
+      "trama": "Earth's mightiest heroes must come together to stop a villain from conquering the world.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Action"
+    },
+    {
+      "id": 13,
+      "name": "Jurassic Park",
+      "year": 1993,
+      "trama": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
+      "genere": "Adventure"
+    },
+    {
+      "id": 14,
+      "name": "The Lion King",
+      "year": 1994,
+      "trama": "A young lion prince is cast out of his pride by his cruel uncle, only to learn his true destiny years later.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Animation"
+    },
+    {
+      "id": 15,
+      "name": "Avatar",
+      "year": 2009,
+      "trama": "A paraplegic Marine is dispatched to the moon Pandora on a unique mission but becomes torn between following orders and protecting the world he feels is his home.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 16,
+      "name": "Titanic",
+      "year": 1997,
+      "trama": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Romance"
+    },
+    {
+      "id": 17,
+      "name": "Star Wars: Episode IV - A New Hope",
+      "year": 1977,
+      "trama": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire's world-destroying battle station.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 18,
+      "name": "The Silence of the Lambs",
+      "year": 1991,
+      "trama": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Thriller"
+    },
+    {
+      "id": 19,
+      "name": "The Green Mile",
+      "year": 1999,
+      "trama": "A tale set on death row, where a gentle giant possesses a mysterious power to heal.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 20,
+      "name": "Saving Private Ryan",
+      "year": 1998,
+      "trama": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "War"
+    },
+    {
+      "id": 21,
+      "name": "The Prestige",
+      "year": 2006,
+      "trama": "Two rival magicians engage in a battle to create the ultimate stage illusion, leading to tragic results.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 22,
+      "name": "Django Unchained",
+      "year": 2012,
+      "trama": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal plantation owner.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg",
+      "genere": "Western"
+    },
+    {
+      "id": 23,
+      "name": "Mad Max: Fury Road",
+      "year": 2015,
+      "trama": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman to flee from a tyrant who controls a water supply.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Action"
+    },
+    {
+      "id": 24,
+      "name": "The Departed",
+      "year": 2006,
+      "trama": "An undercover cop and a mole in the police force try to identify each other while infiltrating an Irish gang.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg",
+      "genere": "Crime"
+    },
+    {
+      "id": 25,
+      "name": "The Social Network",
+      "year": 2010,
+      "trama": "The story of how Mark Zuckerberg created Facebook, and the personal and legal conflicts that followed.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Biography"
+    },
+    {
+      "id": 26,
+      "name": "Whiplash",
+      "year": 2014,
+      "trama": "A young drummer enrolls in a competitive music conservatory, where his dreams of greatness are challenged by a demanding instructor.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMmNkODhkYjctMDMyOC00ZTNjLTkwZTItM2ExMTAxMGU1ZGQ1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 27,
+      "name": "Blade Runner 2049",
+      "year": 2017,
+      "trama": "A young blade runner uncovers a secret that could plunge what's left of society into chaos.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 28,
+      "name": "The Grand Budapest Hotel",
+      "year": 2014,
+      "trama": "A concierge at a famous European hotel is framed for murder, leading to an epic adventure.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg",
+      "genere": "Comedy"
+    },
+    {
+      "id": 29,
+      "name": "Parasite",
+      "year": 2019,
+      "trama": "A poor family schemes to infiltrate the lives of a wealthy family by posing as skilled workers.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Thriller"
+    },
+    {
+      "id": 30,
+      "name": "La La Land",
+      "year": 2016,
+      "trama": "A jazz musician and an aspiring actress fall in love while struggling to make it in Hollywood.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX300.jpg",
+      "genere": "Musical"
+    },
+    {
+      "id": 31,
+      "name": "A Beautiful Mind",
+      "year": 2001,
+      "trama": "John Nash, a brilliant but asocial mathematician, struggles with schizophrenia while making groundbreaking contributions to his field.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzljZTk5ZDgtZTQ1Zi00NTM4LThlOGUtZDk2MGM4NDQ4NWQyXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Biography"
+    },
+    {
+      "id": 32,
+      "name": "The Wolf of Wall Street",
+      "year": 2013,
+      "trama": "The story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption, and the federal government.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg",
+      "genere": "Biography"
+    },
+    {
+      "id": 33,
+      "name": "Shutter Island",
+      "year": 2010,
+      "trama": "A U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Thriller"
+    },
+    {
+      "id": 34,
+      "name": "The Revenant",
+      "year": 2015,
+      "trama": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Adventure"
+    },
+    {
+      "id": 35,
+      "name": "The Hateful Eight",
+      "year": 2015,
+      "trama": "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin inhabited by a collection of nefarious characters.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SX300.jpg",
+      "genere": "Western"
+    },
+    {
+      "id": 36,
+      "name": "Gone Girl",
+      "year": 2014,
+      "trama": "With his wife's disappearance becoming the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected he may not be innocent.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg",
+      "genere": "Thriller"
+    },
+    {
+      "id": 37,
+      "name": "The Irishman",
+      "year": 2019,
+      "trama": "A mob hitman recalls his possible involvement with the slaying of Jimmy Hoffa.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTY2YThkNmQtOWJhYy00ZDc3LWEzOGEtMmQwNzM0YjFmZWIyXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Crime"
+    },
+    {
+      "id": 38,
+      "name": "Jojo Rabbit",
+      "year": 2019,
+      "trama": "A young boy in Nazi Germany whose world view is upended when he discovers that his mother is hiding a Jewish girl in their home.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYmFmNmUyMjYtZTFjNS00OWQyLThhZmMtMGZkYTQ3YjY0ZDQ1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Comedy"
+    },
+    {
+      "id": 39,
+      "name": "1917",
+      "year": 2019,
+      "trama": "Two British soldiers during World War I are given a seemingly impossible mission to deliver a message that will save 1,600 men.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYzkxZjg2NDQtMGVjMy00NWZkLTk0ZDEtZWE3NDYwYjAyMTg1XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "War"
+    },
+    {
+      "id": 40,
+      "name": "Black Panther",
+      "year": 2018,
+      "trama": "T'Challa, the heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future while confronting a challenger from his country's past.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
+      "genere": "Action"
+    },
+    {
+      "id": 41,
+      "name": "Get Out",
+      "year": 2017,
+      "trama": "A young African-American man uncovers shocking secrets when he meets his white girlfriend's family.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_SX300.jpg",
+      "genere": "Horror"
+    },
+    {
+      "id": 42,
+      "name": "Her",
+      "year": 2013,
+      "trama": "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_SX300.jpg",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 43,
+      "name": "The Big Short",
+      "year": 2015,
+      "trama": "In the 2000s, a group of investors bet against the US mortgage market and discover how flawed and corrupt it is.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BZDZkNDQ3YjktYjBlZC00YTY1LTgxOGYtY2RhMWFhZmNkZGY3XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Biography"
+    },
+    {
+      "id": 44,
+      "name": "The King's Speech",
+      "year": 2010,
+      "trama": "The story of King George VI and his efforts to overcome his speech impediment with the help of an unorthodox speech therapist.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SX300.jpg",
+      "genere": "History"
+    },
+    {
+      "id": 45,
+      "name": "Moonlight",
+      "year": 2016,
+      "trama": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 46,
+      "name": "Gravity",
+      "year": 2013,
+      "trama": "Two astronauts work together to survive after an accident leaves them stranded in space.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SX300.jpg",
+      "genere": "Sci-Fi"
+    },
+    {
+      "id": 47,
+      "name": "Joker",
+      "year": 2019,
+      "trama": "A mentally troubled comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Drama"
+    },
+    {
+      "id": 49,
+      "name": "Inglourious Basterds",
+      "year": 2009,
+      "trama": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers plan to assassinate Nazi leaders.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "War"
+    },
+    {
+      "id": 50,
+      "name": "The Truman Show",
+      "year": 1998,
+      "trama": "An insurance salesman discovers his entire life is actually a reality TV show.",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_SX300.jpg",
+      "genere": "Drama"
+    }
+  ]
+}
