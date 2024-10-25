@@ -7,10 +7,6 @@ $main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
 $main-blue: #0076bd !default;
 $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
 
-.dark {
-  background: #110f16;
-}
-
 .light {
   background: #f3f5f7;
 }
@@ -40,9 +36,6 @@ a:hover {
   position: relative;
   color: #ffffff;
 
-  &.dark {
-    background-color: #18151f;
-  }
   &.light {
     background-color: #e1e5ea;
   }
@@ -121,10 +114,6 @@ a:hover {
       cursor: default;
       user-select: none;
       transition: background-color 0.3s;
-
-      &:hover {
-        background: rgba(83, 83, 83, 0.8);
-      }
     }
   }
 
@@ -216,11 +205,6 @@ a:hover {
     width: 55px;
   }
 
-  .postcard.dark {
-    .postcard__text:before {
-      background: #18151f;
-    }
-  }
   .postcard.light {
     .postcard__text:before {
       background: #e1e5ea;
@@ -229,30 +213,6 @@ a:hover {
 }
 
 /* COLORS */
-.postcard .postcard__tagbox .green.play:hover {
-  background: $main-green;
-  color: black;
-}
-.green .postcard__title:hover {
-  color: $main-green;
-}
-.green .postcard__bar {
-  background-color: $main-green;
-}
-.green::before {
-  background-image: linear-gradient(
-    -30deg,
-    $main-green-rgb-015,
-    transparent 50%
-  );
-}
-.green:nth-child(2n)::before {
-  background-image: linear-gradient(
-    30deg,
-    $main-green-rgb-015,
-    transparent 50%
-  );
-}
 
 .postcard .postcard__tagbox .blue.play:hover {
   background: $main-blue;
@@ -274,63 +234,7 @@ a:hover {
   background-image: linear-gradient(30deg, $main-blue-rgb-015, transparent 50%);
 }
 
-.postcard .postcard__tagbox .red.play:hover {
-  background: $main-red;
-}
-.red .postcard__title:hover {
-  color: $main-red;
-}
-.red .postcard__bar {
-  background-color: $main-red;
-}
-.red::before {
-  background-image: linear-gradient(-30deg, $main-red-rgb-015, transparent 50%);
-}
-.red:nth-child(2n)::before {
-  background-image: linear-gradient(30deg, $main-red-rgb-015, transparent 50%);
-}
-
-.postcard .postcard__tagbox .yellow.play:hover {
-  background: $main-yellow;
-  color: black;
-}
-.yellow .postcard__title:hover {
-  color: $main-yellow;
-}
-.yellow .postcard__bar {
-  background-color: $main-yellow;
-}
-.yellow::before {
-  background-image: linear-gradient(
-    -30deg,
-    $main-yellow-rgb-015,
-    transparent 50%
-  );
-}
-.yellow:nth-child(2n)::before {
-  background-image: linear-gradient(
-    30deg,
-    $main-yellow-rgb-015,
-    transparent 50%
-  );
-}
-
 @media screen and (min-width: 769px) {
-  .green::before {
-    background-image: linear-gradient(
-      -80deg,
-      $main-green-rgb-015,
-      transparent 50%
-    );
-  }
-  .green:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      $main-green-rgb-015,
-      transparent 50%
-    );
-  }
-
   .blue::before {
     background-image: linear-gradient(
       -80deg,
@@ -345,34 +249,13 @@ a:hover {
       transparent 50%
     );
   }
+}
 
-  .red::before {
-    background-image: linear-gradient(
-      -80deg,
-      $main-red-rgb-015,
-      transparent 50%
-    );
-  }
-  .red:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      $main-red-rgb-015,
-      transparent 50%
-    );
-  }
-
-  .yellow::before {
-    background-image: linear-gradient(
-      -80deg,
-      $main-yellow-rgb-015,
-      transparent 50%
-    );
-  }
-  .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      $main-yellow-rgb-015,
-      transparent 50%
-    );
+.postcard {
+  .tag__item.fav {
+    cursor: pointer !important;
+    &:hover {
+      background: rgba(83, 83, 83, 0.8);
+    }
   }
 }

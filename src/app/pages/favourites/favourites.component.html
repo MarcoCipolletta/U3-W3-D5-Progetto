@@ -1,5 +1,5 @@
 <div class="container my-3 text-white">
-  <p>Ecco i film che ti piacciono!</p>
+  <h1 class="my-5">Ecco i film che ti piacciono!</h1>
 
   <!-- <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
     <div class="col" *ngFor="let favMovie of favMovies">
@@ -58,7 +58,7 @@
             <i class="fas fa-tag me-2"></i>{{ favMovie.movie.genere }}
           </li>
           <li class="tag__item">{{ favMovie.movie.year }}</li>
-          <li class="tag__item">
+          <li class="tag__item fav">
             <i
               (click)="addFav(favMovie.movie)"
               [ngClass]="{
