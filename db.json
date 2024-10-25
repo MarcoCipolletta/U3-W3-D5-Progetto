@@ -43,18 +43,6 @@
         "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
         "genere": "Action"
       },
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "movie": {
-        "id": 2,
-        "name": "The Dark Knight",
-        "year": 2008,
-        "trama": "Batman faces the Joker, a criminal mastermind who brings chaos to Gotham City.",
-        "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
-        "genere": "Action"
-      },
       "userId": 3,
       "id": 4
     },
@@ -69,6 +57,42 @@
       },
       "userId": 3,
       "id": 5
+    },
+    {
+      "movie": {
+        "id": 27,
+        "name": "Blade Runner 2049",
+        "year": 2017,
+        "trama": "A young blade runner uncovers a secret that could plunge what's left of society into chaos.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg",
+        "genere": "Sci-Fi"
+      },
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "movie": {
+        "id": 3,
+        "name": "Interstellar",
+        "year": 2014,
+        "trama": "A team of astronauts travel through a wormhole in search of a new home for humanity.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg",
+        "genere": "Adventure"
+      },
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "movie": {
+        "id": 4,
+        "name": "The Matrix",
+        "year": 1999,
+        "trama": "A hacker discovers the true nature of his reality and his role in the war against its controllers.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
+        "genere": "Sci-Fi"
+      },
+      "userId": 1,
+      "id": 8
     }
   ],
   "movies": [

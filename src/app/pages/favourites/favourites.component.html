@@ -1,7 +1,7 @@
 <div class="container my-3 text-white">
   <p>Ecco i film che ti piacciono!</p>
 
-  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
+  <!-- <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
     <div class="col" *ngFor="let favMovie of favMovies">
       <div class="card h-100">
         <img
@@ -17,7 +17,7 @@
         <div
           class="card-footer d-flex justify-content-between bg-transparent border-0"
         >
-          <a href="#" class="btn btn-primary">Più info</a>
+          <a class="btn btn-primary disabled">Più info</a>
           <button class="btn btn-primary" (click)="addFav(favMovie.movie)">
             <i
               [ngClass]="{
@@ -30,5 +30,48 @@
         </div>
       </div>
     </div>
+  </div> -->
+  <!-- inizio prova -->
+
+  <div class="container py-2" *ngFor="let favMovie of favMovies; let i = index">
+    <article class="postcard light blue">
+      <a class="postcard__img_link">
+        <img
+          class="postcard__img"
+          [src]="favMovie.movie.imgUrl"
+          alt="Image Title"
+        />
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 class="postcard__title blue ms-2">
+          <a>{{ favMovie.movie.name }}</a>
+        </h1>
+        <div class="postcard__subtitle small">
+          <i class="fas fa-calendar-alt mx-2"></i> Mon, May 25th 200{{ i }}
+        </div>
+        <div class="postcard__bar"></div>
+        <div class="postcard__preview-txt">
+          {{ favMovie.movie.trama }}
+        </div>
+        <ul class="postcard__tagbox">
+          <li class="tag__item">
+            <i class="fas fa-tag me-2"></i>{{ favMovie.movie.genere }}
+          </li>
+          <li class="tag__item">{{ favMovie.movie.year }}</li>
+          <li class="tag__item">
+            <i
+              (click)="addFav(favMovie.movie)"
+              [ngClass]="{
+                'fa-regular': !isFavourite(favMovie.movie),
+                'fa-solid': isFavourite(favMovie.movie)
+              }"
+              class="fa-heart"
+            ></i>
+          </li>
+        </ul>
+      </div>
+    </article>
   </div>
+
+  <!-- fine prova -->
 </div>
