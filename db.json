@@ -1,5 +1,22 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "marcocipolletta1998@gmail.com",
+      "password": "$2a$10$hl5N8is70fsYv5VINuIOie0EXg03HUi2/1y9RY9A9FADMKcQcwwxG",
+      "name": "marco",
+      "lastName": "cipolletta",
+      "age": 25,
+      "id": 1
+    },
+    {
+      "email": "l@lo.it",
+      "password": "$2a$10$.rsa0PbequdrRGk74WeZVO1UdxXIraNgEE.djaPObxbFW.b6EDh96",
+      "name": "marco",
+      "lastName": "luis",
+      "age": "",
+      "id": 2
+    }
+  ],
   "favourites": [],
   "movies": [
     {

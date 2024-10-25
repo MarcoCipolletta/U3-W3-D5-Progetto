@@ -4,5 +4,5 @@ export interface iUser {
   password: string;
   name: string;
   lastName: string;
-  age: string;
+  age?: number;
 }

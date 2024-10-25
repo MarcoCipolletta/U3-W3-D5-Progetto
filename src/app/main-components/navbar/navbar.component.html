@@ -1,1 +1,70 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand bg-body-tertiary">
+  <div class="container-fluid d-flex justify-content-between">
+    <div class="d-flex">
+      <a class="navbar-brand" routerLink="/home" routerLinkActive="active"
+        >Navbar</a
+      >
+
+      <ul class="navbar-nav mb-0">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [ngClass]="{ disabled: !isLoggedIn }"
+            aria-current="page"
+            routerLink="/home"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [ngClass]="{ disabled: !isLoggedIn }"
+            routerLinkActive="active"
+            routerLink="/users"
+            >Users</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [ngClass]="{ disabled: !isLoggedIn }"
+            routerLinkActive="active"
+            routerLink="/favourites"
+            >Favorites</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="navbar-nav mb-0" *ngIf="!isLoggedIn">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            aria-current="page"
+            routerLink="/login"
+            >Login</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/register"
+            >Register</a
+          >
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-0" *ngIf="isLoggedIn">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            aria-current="page"
+            role="button"
+            (click)="logout()"
+            >Logout</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

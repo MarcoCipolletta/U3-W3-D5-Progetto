@@ -1,1 +1,129 @@
-<p>register works!</p>
+<div class="form-body">
+  <div class="row">
+    <div class="form-holder">
+      <div class="form-content">
+        <div class="form-items">
+          <h3>Registrati</h3>
+          <p>I campi con * sono obbligatori</p>
+          <form
+            class="requires-validation"
+            [formGroup]="form"
+            (ngSubmit)="register()"
+          >
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="text"
+                formControlName="name"
+                placeholder="Nome*"
+              />
+
+              <div
+                *ngIf="
+                  form.get('name')?.hasError('required') &&
+                  isInValidTouched('name')
+                "
+                class="invalid-feedback d-block"
+              >
+                Devi inserire il nome!
+              </div>
+            </div>
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="text"
+                formControlName="lastName"
+                placeholder="Cognome*"
+              />
+
+              <div
+                *ngIf="
+                  form.get('lastName')?.hasError('required') &&
+                  isInValidTouched('lastName')
+                "
+                class="invalid-feedback d-block"
+              >
+                Devi inserire il cognome!
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="email"
+                placeholder="E-mail*"
+                formControlName="email"
+              />
+              <div
+                *ngIf="
+                  form.get('email')?.hasError('email') &&
+                  isInValidTouched('email')
+                "
+                class="invalid-feedback d-block"
+              >
+                Devi inserire un email valida
+              </div>
+              <div
+                *ngIf="
+                  form.get('email')?.hasError('required') &&
+                  isInValidTouched('email')
+                "
+                class="invalid-feedback d-block"
+              >
+                Devi inserire l'email
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="password"
+                formControlName="password"
+                placeholder="Password*"
+              />
+
+              <div
+                *ngIf="
+                  form.get('password')?.hasError('required') &&
+                  isInValidTouched('password')
+                "
+                class="invalid-feedback d-block"
+              >
+                Devi inserire la password
+              </div>
+              <div
+                *ngIf="
+                  form.get('password')?.errors?.['minlength'] &&
+                  isInValidTouched('password')
+                "
+                class="invalid-feedback d-block"
+              >
+                Deve essere minimo 6 caratteri
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <input
+                class="form-control eta"
+                type="number"
+                formControlName="age"
+                placeholder="Età"
+              />
+            </div>
+
+            <div class="form-button mt-3">
+              <button
+                [disabled]="form.invalid"
+                id="submit"
+                type="submit"
+                class="btn btn-primary"
+              >
+                Register
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
