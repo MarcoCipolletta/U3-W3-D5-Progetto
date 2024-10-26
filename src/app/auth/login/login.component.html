@@ -2,37 +2,48 @@
   <div class="row">
     <div class="form-holder">
       <div class="form-content">
-        <div class="form-items">
-          <h3>Login</h3>
-          <p>Inserisci i dati per fare il login</p>
-          <form class="requires-validation" (ngSubmit)="login()">
-            <div class="col-md-12">
-              <input
-                class="form-control"
-                type="email"
-                placeholder="E-mail*"
-                name="email"
-                [(ngModel)]="datiLogin.email"
-              />
-            </div>
+        <div class="form-items d-flex flex-column justify-content-between">
+          <div>
+            <h3>Login</h3>
 
-            <div class="col-md-12">
-              <input
-                class="form-control"
-                type="password"
-                name="password"
-                placeholder="Password*"
-                [(ngModel)]="datiLogin.password"
-              />
-            </div>
+            <form class="inputs" (ngSubmit)="login()">
+              <div class="col-md-12">
+                <label for="email">Email</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  placeholder="Enter your email"
+                  id="email"
+                  name="email"
+                  [(ngModel)]="datiLogin.email"
+                />
+              </div>
 
-            <div class="form-button mt-3">
-              <button id="submit" type="submit" class="btn btn-primary">
-                Login
-              </button>
-            </div>
-          </form>
+              <div class="col-md-12">
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  class="form-control"
+                  type="password"
+                  name="password"
+                  placeholder="Enter password"
+                  [(ngModel)]="datiLogin.password"
+                />
+              </div>
+
+              <div class="form-button mt-3">
+                <button type="submit" class="btn btn-primary btn-login">
+                  Sign in
+                </button>
+              </div>
+            </form>
+          </div>
+          <p class="text-white">
+            Don't have an account?
+            <a routerLink="/register" class="register">REGISTER NOW</a>
+          </p>
         </div>
+        <img class="posterLogin" src="SebastianMagnani.jpeg" alt="" />
       </div>
     </div>
   </div>

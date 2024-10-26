@@ -1,65 +1,24 @@
-<div class="container my-3 text-white">
-  <h1 class="my-5">Here what you like!</h1>
+<div class="container-fluid my-3 text-white">
+  <div class="p-2" *ngFor="let favMovie of favMovies">
+    <article class="poster d-flex gap">
+      <img class="poster-img" [src]="favMovie.movie.imgUrl" alt="Image movie" />
 
-  <!-- <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
-    <div class="col" *ngFor="let favMovie of favMovies">
-      <div class="card h-100">
-        <img
-          [src]="favMovie.movie.imgUrl"
-          class="card-img-top poster"
-          alt="Poster film"
-        />
-        <div class="card-body">
-          <h6 class="card-title fw-bolder">{{ favMovie.movie.name }}</h6>
-          <p class="card-text">Anno: {{ favMovie.movie.year }}</p>
-          <small>{{ favMovie.movie.genere }}</small>
-        </div>
-        <div
-          class="card-footer d-flex justify-content-between bg-transparent border-0"
-        >
-          <a class="btn btn-primary disabled">Più info</a>
-          <button class="btn btn-primary" (click)="addFav(favMovie.movie)">
-            <i
-              [ngClass]="{
-                'fa-regular': !isFavourite(favMovie.movie),
-                'fa-solid': isFavourite(favMovie.movie)
-              }"
-              class="fa-heart"
-            ></i>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- inizio prova -->
+      <div class="poster-text">
+        <h3 class="poster-title">
+          {{ favMovie.movie.name }}
+        </h3>
 
-  <div class="container py-2" *ngFor="let favMovie of favMovies; let i = index">
-    <article class="postcard light blue">
-      <a class="postcard__img_link">
-        <img
-          class="postcard__img"
-          [src]="favMovie.movie.imgUrl"
-          alt="Image Title"
-        />
-      </a>
-      <div class="postcard__text t-dark">
-        <h1 class="postcard__title blue ms-2">
-          <a>{{ favMovie.movie.name }}</a>
-        </h1>
-        <div class="postcard__subtitle small">
-          <i class="fas fa-calendar-alt mx-2"></i> Mon, May 25th 200{{ i }}
-        </div>
-        <div class="postcard__bar"></div>
-        <div class="postcard__preview-txt">
+        <div class="poster-trama">
           {{ favMovie.movie.trama }}
         </div>
-        <ul class="postcard__tagbox">
-          <li class="tag__item">
+        <ul class="poster-tag list-unstyled mt-5">
+          <li class="tag-item">
             <i class="fas fa-tag me-2"></i>{{ favMovie.movie.genere }}
           </li>
-          <li class="tag__item">{{ favMovie.movie.year }}</li>
-          <li class="tag__item fav">
+          <li class="tag-item">{{ favMovie.movie.year }}</li>
+          <li class="tag-item fav">
             <i
+              role="button"
               (click)="addFav(favMovie.movie)"
               [ngClass]="{
                 'fa-regular': !isFavourite(favMovie.movie),

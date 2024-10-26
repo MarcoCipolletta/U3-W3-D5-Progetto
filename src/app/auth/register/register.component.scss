@@ -10,29 +10,19 @@
 .form-holder .form-content {
   position: relative;
   text-align: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-align-items: center;
   align-items: center;
-  padding: 60px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
 }
 
 .form-content .form-items {
-  border: 3px solid #fff;
+  background-color: #042c09;
+  height: 100%;
   padding: 40px;
-  display: inline-block;
-  width: 100%;
-  min-width: 540px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  width: 500px;
   border-radius: 10px;
   text-align: left;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
@@ -48,26 +38,7 @@
   margin-bottom: 30px;
 }
 
-.form-content p {
-  color: #fff;
-  text-align: left;
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 20px;
-  margin-bottom: 30px;
-}
-
-.form-content label,
-.was-validated .form-check-input:invalid ~ .form-check-label,
-.was-validated .form-check-input:valid ~ .form-check-label {
-  color: #fff;
-}
-
-.form-content input[type="text"],
-.form-content input[type="password"],
-.form-content input[type="email"],
-.form-content input[type="number"],
-.form-content select {
+.form-content input {
   width: 100%;
   padding: 9px 20px;
   text-align: left;
@@ -83,61 +54,50 @@
   margin-top: 16px;
 }
 
-.btn-primary {
-  background-color: #6c757d;
-  outline: none;
-  border: 0px;
-  box-shadow: none;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-  background-color: #495056;
-  outline: none !important;
-  border: none !important;
-  box-shadow: none;
-}
-
-.form-content textarea {
-  position: static !important;
-  width: 100%;
-  padding: 8px 20px;
-  border-radius: 6px;
-  text-align: left;
-  background-color: #fff;
-  border: 0;
-  font-size: 15px;
-  font-weight: 300;
-  color: #8d8d8d;
-  outline: none;
-  resize: none;
-  height: 120px;
-  -webkit-transition: none;
-  transition: none;
-  margin-bottom: 14px;
-}
-
-.form-content textarea:hover,
-.form-content textarea:focus {
-  border: 0;
-  background-color: #ebeff8;
-  color: #8d8d8d;
-}
-
-.mv-up {
-  margin-top: -9px !important;
-  margin-bottom: 8px !important;
-}
-
 .invalid-feedback {
   color: #ff606e;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
 }
 
 .valid-feedback {
   color: #2acc80;
 }
 
-.form-control.eta::-webkit-inner-spin-button {
+.inputs {
+  align-self: center;
+  margin-top: 4rem;
+  input {
+    margin-top: 0;
+    &:nth-of-type(1) {
+      margin-bottom: 1rem;
+    }
+  }
+  label {
+    color: white;
+    margin-bottom: 0;
+  }
+  .btn-register {
+    background-color: #bb6900;
+    margin-top: 1.75rem;
+    border: none;
+    width: 100%;
+  }
+}
+
+.questLogin {
+  margin: 0;
+  margin-top: 1rem;
+  color: white;
+  a.register {
+    color: #bb6900;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
+  margin: 0;
 }

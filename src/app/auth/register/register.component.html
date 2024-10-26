@@ -3,19 +3,14 @@
     <div class="form-holder">
       <div class="form-content">
         <div class="form-items">
-          <h3>Registrati</h3>
-          <p>I campi con * sono obbligatori</p>
-          <form
-            class="requires-validation"
-            [formGroup]="form"
-            (ngSubmit)="register()"
-          >
+          <h3>Register</h3>
+          <form class="inputs" [formGroup]="form" (ngSubmit)="register()">
             <div class="col-md-12">
               <input
                 class="form-control"
                 type="text"
                 formControlName="name"
-                placeholder="Nome*"
+                placeholder="Name*"
               />
 
               <div
@@ -25,7 +20,7 @@
                 "
                 class="invalid-feedback d-block"
               >
-                Devi inserire il nome!
+                Insert your name!
               </div>
             </div>
             <div class="col-md-12">
@@ -33,7 +28,7 @@
                 class="form-control"
                 type="text"
                 formControlName="lastName"
-                placeholder="Cognome*"
+                placeholder="Last name*"
               />
 
               <div
@@ -43,7 +38,7 @@
                 "
                 class="invalid-feedback d-block"
               >
-                Devi inserire il cognome!
+                Insert your last name!
               </div>
             </div>
 
@@ -61,7 +56,7 @@
                 "
                 class="invalid-feedback d-block"
               >
-                Devi inserire un email valida
+                Enter valid email
               </div>
               <div
                 *ngIf="
@@ -70,7 +65,7 @@
                 "
                 class="invalid-feedback d-block"
               >
-                Devi inserire l'email
+                Insert email
               </div>
             </div>
 
@@ -89,7 +84,7 @@
                 "
                 class="invalid-feedback d-block"
               >
-                Devi inserire la password
+                Insert password
               </div>
               <div
                 *ngIf="
@@ -98,7 +93,7 @@
                 "
                 class="invalid-feedback d-block"
               >
-                Deve essere minimo 6 caratteri
+                Minimun length 6 characters
               </div>
             </div>
 
@@ -107,7 +102,7 @@
                 class="form-control eta"
                 type="number"
                 formControlName="age"
-                placeholder="Età"
+                placeholder="Age"
               />
             </div>
 
@@ -116,11 +111,15 @@
                 [disabled]="form.invalid"
                 id="submit"
                 type="submit"
-                class="btn btn-primary"
+                class="btn btn-primary btn-register"
               >
-                Register
+                Sing up
               </button>
             </div>
+            <p class="questLogin">
+              Already have an account?
+              <a routerLink="/login" class="register">LOGIN NOW</a>
+            </p>
           </form>
         </div>
       </div>

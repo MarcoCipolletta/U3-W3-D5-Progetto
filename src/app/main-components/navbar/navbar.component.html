@@ -1,11 +1,14 @@
-<nav class="navbar navbar-expand bg-transparent">
+<nav
+  class="navbar navbar-expand bg-transparent top-0 end-0 start-0"
+  [ngClass]="{ 'position-fixed': !isLoggedIn }"
+>
   <div class="container-fluid d-flex justify-content-between">
     <div class="d-flex">
       <ul class="navbar-nav mb-0">
         <li class="nav-item me-5">
           <a
             class="nav-link linkOrange"
-            [ngClass]="{ disabled: !isLoggedIn }"
+            [ngClass]="{ 'd-none': !isLoggedIn }"
             aria-current="page"
             routerLink="/home"
             routerLinkActive="selected"
@@ -16,7 +19,7 @@
         <li class="nav-item me-5">
           <a
             class="nav-link linkOrange"
-            [ngClass]="{ disabled: !isLoggedIn }"
+            [ngClass]="{ 'd-none': !isLoggedIn }"
             routerLinkActive="selected"
             routerLink="/users"
             >Users</a
@@ -25,7 +28,7 @@
         <li class="nav-item">
           <a
             class="nav-link linkOrange"
-            [ngClass]="{ disabled: !isLoggedIn }"
+            [ngClass]="{ 'd-none': !isLoggedIn }"
             routerLinkActive="selected"
             routerLink="/favourites"
             >Favorites</a
