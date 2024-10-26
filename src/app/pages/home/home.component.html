@@ -1,34 +1,31 @@
 <div class="container my-3 text-white">
-  <h1>Benvenuto {{ name }}!</h1>
-  <p>Ecco alcuni film che potrebbero piacerti!</p>
+  <h1>Welcome {{ name | uppercase }}</h1>
+  <p>Something you may like!</p>
 
-  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4">
+  <div
+    class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-4 mt-5"
+  >
     <div class="col" *ngFor="let movie of movies">
-      <div class="card h-100">
+      <div class="position-relative h-100 border-0 details">
         <img
           [src]="movie.imgUrl"
           class="card-img-top poster"
           alt="Poster film"
         />
-        <div class="card-body">
+        <div class="info">
           <h6 class="card-title fw-bolder">{{ movie.name }}</h6>
-          <p class="card-text">Anno: {{ movie.year }}</p>
+          <p class="card-text">Year: {{ movie.year }}</p>
           <small>{{ movie.genere }}</small>
         </div>
-        <div
-          class="card-footer d-flex justify-content-between bg-transparent border-0"
-        >
-          <a class="btn btn-primary disabled">Più info</a>
-          <button class="btn btn-primary" (click)="addFav(movie)">
-            <i
-              [ngClass]="{
-                'fa-regular': !isFavourite(movie),
-                'fa-solid': isFavourite(movie)
-              }"
-              class="fa-heart"
-            ></i>
-          </button>
-        </div>
+        <button class="btn-fav" (click)="addFav(movie)">
+          <i
+            [ngClass]="{
+              'fa-regular': !isFavourite(movie),
+              'fa-solid': isFavourite(movie)
+            }"
+            class="fa-heart"
+          ></i>
+        </button>
       </div>
     </div>
   </div>

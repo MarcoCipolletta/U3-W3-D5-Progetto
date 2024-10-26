@@ -1,36 +1,32 @@
-<nav class="navbar navbar-expand bg-body-tertiary">
+<nav class="navbar navbar-expand bg-transparent">
   <div class="container-fluid d-flex justify-content-between">
     <div class="d-flex">
-      <a class="navbar-brand" routerLink="/home" routerLinkActive="active"
-        >Navbar</a
-      >
-
       <ul class="navbar-nav mb-0">
-        <li class="nav-item">
+        <li class="nav-item me-5">
           <a
-            class="nav-link"
+            class="nav-link linkOrange"
             [ngClass]="{ disabled: !isLoggedIn }"
             aria-current="page"
             routerLink="/home"
-            routerLinkActive="active"
+            routerLinkActive="selected"
             [routerLinkActiveOptions]="{ exact: true }"
             >Home</a
           >
         </li>
-        <li class="nav-item">
+        <li class="nav-item me-5">
           <a
-            class="nav-link"
+            class="nav-link linkOrange"
             [ngClass]="{ disabled: !isLoggedIn }"
-            routerLinkActive="active"
+            routerLinkActive="selected"
             routerLink="/users"
             >Users</a
           >
         </li>
         <li class="nav-item">
           <a
-            class="nav-link"
+            class="nav-link linkOrange"
             [ngClass]="{ disabled: !isLoggedIn }"
-            routerLinkActive="active"
+            routerLinkActive="selected"
             routerLink="/favourites"
             >Favorites</a
           >
@@ -38,18 +34,21 @@
       </ul>
     </div>
     <div>
-      <ul class="navbar-nav mb-0" *ngIf="!isLoggedIn">
+      <ul class="navbar-nav mb-0 linkOrange" *ngIf="!isLoggedIn">
         <li class="nav-item">
           <a
-            class="nav-link"
-            routerLinkActive="active"
+            class="nav-link linkOrange"
+            routerLinkActive="selected"
             aria-current="page"
             routerLink="/login"
             >Login</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/register"
+          <a
+            class="nav-link linkOrange"
+            routerLinkActive="selected"
+            routerLink="/register"
             >Register</a
           >
         </li>
@@ -57,7 +56,7 @@
       <ul class="navbar-nav mb-0" *ngIf="isLoggedIn">
         <li class="nav-item">
           <a
-            class="nav-link"
+            class="nav-link linkOrange"
             aria-current="page"
             role="button"
             (click)="logout()"

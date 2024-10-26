@@ -1,4 +1,37 @@
 img.poster {
-  height: 350px;
+  height: 355px;
   object-fit: cover;
+
+  border-radius: 5px;
+}
+
+.btn-fav {
+  position: absolute;
+  border: 0;
+  background-color: transparent;
+  right: 5px;
+  top: 5px;
+  font-size: 1.25rem;
+  // color: #f50000;
+  color: #e58205;
+}
+
+.details {
+  .info {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(7px);
+    padding-inline: 1rem;
+    padding-block: 0.25rem;
+    color: #e58205;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    .info {
+      opacity: 1;
+    }
+  }
 }

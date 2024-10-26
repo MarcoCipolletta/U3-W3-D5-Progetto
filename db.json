@@ -31,21 +31,17 @@
       "lastName": "qwe",
       "age": 66,
       "id": 4
+    },
+    {
+      "email": "mom@m.it",
+      "password": "$2a$10$QMZX7V3fVVuUqK5jxxehlei3J7SUs.pUqzarpAnXatoap/TBrp4le",
+      "name": "mol",
+      "lastName": "mal",
+      "age": 70,
+      "id": 5
     }
   ],
   "favourites": [
-    {
-      "movie": {
-        "id": 2,
-        "name": "The Dark Knight",
-        "year": 2008,
-        "trama": "Batman faces the Joker, a criminal mastermind who brings chaos to Gotham City.",
-        "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
-        "genere": "Action"
-      },
-      "userId": 3,
-      "id": 4
-    },
     {
       "movie": {
         "id": 1,
@@ -129,6 +125,42 @@
       },
       "userId": 1,
       "id": 14
+    },
+    {
+      "movie": {
+        "id": 4,
+        "name": "The Matrix",
+        "year": 1999,
+        "trama": "A hacker discovers the true nature of his reality and his role in the war against its controllers.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
+        "genere": "Sci-Fi"
+      },
+      "userId": 3,
+      "id": 16
+    },
+    {
+      "movie": {
+        "id": 49,
+        "name": "Inglourious Basterds",
+        "year": 2009,
+        "trama": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers plan to assassinate Nazi leaders.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg",
+        "genere": "War"
+      },
+      "userId": 3,
+      "id": 17
+    },
+    {
+      "movie": {
+        "id": 47,
+        "name": "Joker",
+        "year": 2019,
+        "trama": "A mentally troubled comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+        "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_SX300.jpg",
+        "genere": "Drama"
+      },
+      "userId": 3,
+      "id": 18
     }
   ],
   "movies": [
