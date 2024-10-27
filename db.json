@@ -39,6 +39,14 @@
       "lastName": "mal",
       "age": 70,
       "id": 5
+    },
+    {
+      "email": "lamia@bho.it",
+      "password": "$2a$10$JmYe6Y/aDMsxRwyMIlmoxelBbK0Ir/VY1Kv1WfXlz3Rd3b9pelB1e",
+      "name": "Marco",
+      "lastName": "Cipo",
+      "age": 66,
+      "id": 6
     }
   ],
   "favourites": [
@@ -53,18 +61,6 @@
       },
       "userId": 3,
       "id": 5
-    },
-    {
-      "movie": {
-        "id": 10,
-        "name": "Fight Club",
-        "year": 1999,
-        "trama": "An insomniac office worker forms an underground fight club as a form of male bonding.",
-        "imgUrl": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
-        "genere": "Drama"
-      },
-      "userId": 1,
-      "id": 14
     },
     {
       "movie": {
@@ -112,7 +108,7 @@
         "genere": "Action"
       },
       "userId": 1,
-      "id": 19
+      "id": 22
     },
     {
       "movie": {
@@ -124,7 +120,7 @@
         "genere": "Adventure"
       },
       "userId": 1,
-      "id": 20
+      "id": 24
     }
   ],
   "movies": [

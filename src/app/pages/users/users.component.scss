@@ -1,0 +1,13 @@
+.card {
+  background-color: transparent;
+  border: 2px solid #e58205;
+  color: #fff;
+  h5 {
+    text-transform: capitalize;
+  }
+  .card-body {
+    p {
+      font-size: 0.75rem;
+    }
+  }
+}
